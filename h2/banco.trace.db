@@ -1,0 +1,3 @@
+2020-08-20 11:45:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITULO VARCHAR(20)": "'Estudar Banco de dados' (22)"; SQL statement:
+insert into todo (concluido, data, descricao, titulo, id) values (?, ?, ?, ?, ?) [22001-200]
